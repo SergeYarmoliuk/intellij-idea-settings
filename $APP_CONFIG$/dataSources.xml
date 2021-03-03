@@ -1,0 +1,30 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="nutmeglive@nutmeg-db.sit.nutmeg.co.uk" uuid="0614a8cd-17aa-4056-9fb9-c5c8ecc88e92">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://nutmeg-db.sit.nutmeg.co.uk:3306/nutmeglive</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="weblive@nutmeg-db.sit.nutmeg.co.uk" uuid="8ec21b5d-2ef2-472e-82a4-ebd761909c3e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://nutmeg-db.sit.nutmeg.co.uk:3306/weblive</jdbc-url>
+      <time-zone>UTC</time-zone>
+    </data-source>
+    <data-source source="LOCAL" name="nm-cash-allocation-db.dev.nutmeg.co.uk" uuid="57af95ea-c688-4a7e-b892-5f245cb66126">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://nm-cash-allocation-db.dev.nutmeg.co.uk:3306/cashallocation</jdbc-url>
+      <time-zone>UTC</time-zone>
+    </data-source>
+    <data-source source="LOCAL" name="test-connection-nutmeglive@nutmeg-db.sit.nutmeg.co.uk [2]" uuid="06ded7b6-0d67-4271-919e-666642ed223d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://nutmeg-db.sit.nutmeg.co.uk:3306/nutmeglive</jdbc-url>
+    </data-source>
+  </component>
+</application>
