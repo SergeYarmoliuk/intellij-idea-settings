@@ -12,7 +12,6 @@
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*.cvs</mask>
     <mask>*.csv</mask>
@@ -23,5 +22,6 @@
     <mask>*.spec.js</mask>
     <mask>!*.java</mask>
     <mask>*.js</mask>
+    <mask>*.java</mask>
   </component>
 </application>
