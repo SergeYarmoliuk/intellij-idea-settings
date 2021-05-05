@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="BalancesAction" type="JavaScript" />
       <mapping pattern="EnhancedCustomerCashTransactionsSearchValidator" type="JavaScript" />
       <mapping pattern="balancesSagas" type="JavaScript" />
