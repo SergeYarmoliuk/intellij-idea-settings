@@ -7,13 +7,11 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*.cvs</mask>
     <mask>*.csv</mask>
@@ -22,6 +20,8 @@
     <mask>!*Test.java</mask>
     <mask>!*.js</mask>
     <mask>*.spec.js</mask>
+    <mask>!*.java</mask>
     <mask>*.js</mask>
+    <mask>*.java</mask>
   </component>
 </application>
