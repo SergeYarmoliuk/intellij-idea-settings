@@ -5,6 +5,10 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://nutmeg-db.sit.nutmeg.co.uk:3306/nutmeglive</jdbc-url>
+      <driver-properties>
+        <property name="enabledTLSProtocols" value="TLSv1.1" />
+        <property name="sslMode" value="DISABLED" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="weblive@nutmeg-db.sit.nutmeg.co.uk" uuid="8ec21b5d-2ef2-472e-82a4-ebd761909c3e">
       <driver-ref>mysql.8</driver-ref>
