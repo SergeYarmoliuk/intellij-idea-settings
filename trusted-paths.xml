@@ -3,6 +3,7 @@
     <option name="TRUSTED_PATHS">
       <list>
         <option value="$USER_HOME$/Workspace/Projects/NutmegBigBrother" />
+        <option value="$USER_HOME$/Workspace/NutmegProjects" />
       </list>
     </option>
   </component>
